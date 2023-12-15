@@ -19,5 +19,6 @@ spec:
       containers:
         - name: nginx
           image: dockerimagesbykc/nginx:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
